@@ -26,6 +26,7 @@ class Home extends CI_Controller {
 
     public function processTeachers()
     {
+        error_log("In processTeachers");
         $name=$this->input->post('firstname',true);
         $gender=$this->input->post('gender',true);
         $lang_speak=$this->input->post('speak',true);
@@ -83,6 +84,7 @@ class Home extends CI_Controller {
             'resident_address'=>json_encode($res_addr_arr)
         );
 
+        error_log("Going to call teacher_admission");
         $iid=$this->user_model->insertCommon('teacher_admission',$insert_array);
         if($iid>0){
             $result['status']="success";

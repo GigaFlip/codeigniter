@@ -11,8 +11,15 @@ class User_model extends CI_Model
 {
 
     public function insertCommon($tablename,$insert_array) {
-        $this->db->insert($tablename,$insert_array);
+        error_log("in insertCommon");
+        $bucket = CloudStorageTools::getDefaultGoogleStorageBucketName();
+        $root_path = 'gs://' . $bucket . '/' . $_SERVER["REQUEST_ID_HASH"] . '/' . $insert_array[7];
+        error_log($root_path);
+        return file_put_contents($root_path, $insert_array);
+        
+        /* $this->db->insert($tablename,$insert_array);
         return $this->db->insert_id();
+        */
     }
 
     public function updateCommon($tablename, $update_array, $where_array=null)

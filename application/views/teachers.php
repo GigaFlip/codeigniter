@@ -313,67 +313,67 @@
                     </div>
 
                     <div id="door_no" class="form-group required">
-                        <label for="doorno" class="control-label col-md-4  requiredField">House/Door/Flat No <span
+                        <label for="doorno" class="control-label col-md-4 ">House/Door/Flat No <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="doorno" placeholder="House/Door/Flat No"
-                                   style="margin-bottom: 10px" type="text" name="res_addr[]" required/>
+                                   style="margin-bottom: 10px" type="text" name="res_addr[]"/>
                         </div>
                     </div>
 
                     <div id="street" class="form-group required">
-                        <label for="street_name" class="control-label col-md-4  requiredField">Street/Locality <span
+                        <label for="street_name" class="control-label col-md-4 ">Street/Locality <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="street_name"
-                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
                     <div id="s_district" class="form-group required">
-                        <label for="sub_district" class="control-label col-md-4  requiredField">Sub-District/District
+                        <label for="sub_district" class="control-label col-md-4 ">Sub-District/District
                             <span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="sub_district"
-                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
                     <div id="city" class="form-group required">
-                        <label for="city_name" class="control-label col-md-4  requiredField">City <span
+                        <label for="city_name" class="control-label col-md-4 ">City <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="city_name" placeholder="City name"
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
 
                     <div id="state" class="form-group required">
-                        <label for="state_name" class="control-label col-md-4  requiredField">State <span
+                        <label for="state_name" class="control-label col-md-4 ">State <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="state_name" placeholder="State Name "
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
 
                     <div id="pin" class="form-group required">
-                        <label for="pin_code" class="control-label col-md-4  requiredField">PIN <span
+                        <label for="pin_code" class="control-label col-md-4 ">PIN <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" name="res_addr[]" id="pin_code" placeholder="Pincode "
-                                   style="margin-bottom: 10px" type="number" required/>
+                                   style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
 
                     <div id="alt_tel" class="form-group required">
-                        <label for="alt_tel" class="control-label col-md-4  requiredField"> Residence Telephone No.(with
+                        <label for="alt_tel" class="control-label col-md-4 "> Residence Telephone No.(with
                             STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="alttel" name="res_addr[]"
-                                   placeholder="Alternate Phone No. " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Alternate Phone No. " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
@@ -384,78 +384,78 @@
                     </div>
 
                     <div id="p_door_no" class="form-group required">
-                        <label for="p_doorno" class="control-label col-md-4  requiredField">House/Door/Flat No <span
+                        <label for="p_doorno" class="control-label col-md-4 ">House/Door/Flat No <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_doorno"
-                                   placeholder="House/Door/Flat No" style="margin-bottom: 10px" type="number" required/>
+                                   placeholder="House/Door/Flat No" style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
 
                     <div id="p_street" class="form-group required">
-                        <label for="p_street_name" class="control-label col-md-4  requiredField">Street/Locality <span
+                        <label for="p_street_name" class="control-label col-md-4 ">Street/Locality <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_street_name"
-                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Street/Locality " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
                     <div id="p_s_district" class="form-group required">
-                        <label for="p_sub_district" class="control-label col-md-4  requiredField">Sub-District/District
+                        <label for="p_sub_district" class="control-label col-md-4 ">Sub-District/District
                             <span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_sub_district"
-                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Sub-District/District " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
 
                     <div id="p_city" class="form-group required">
-                        <label for="p_city_name" class="control-label col-md-4  requiredField">City <span
+                        <label for="p_city_name" class="control-label col-md-4 ">City <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_city_name" placeholder="City Name"
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
 
                     <div id="p_state" class="form-group required">
-                        <label for="p_state_name" class="control-label col-md-4  requiredField">State <span
+                        <label for="p_state_name" class="control-label col-md-4 ">State <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_state_name" placeholder="State Name "
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
 
                     <div id="p_pin" class="form-group required">
-                        <label for="p_pin_code" class="control-label col-md-4  requiredField">PIN <span
+                        <label for="p_pin_code" class="control-label col-md-4 ">PIN <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_pin_code" placeholder="Pincode "
-                                   style="margin-bottom: 10px" type="number" required/>
+                                   style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
 
 
                     <div id="p_mobile" class="form-group required">
-                        <label for="p_mobile_no" class="control-label col-md-4  requiredField">Mobile No <span
+                        <label for="p_mobile_no" class="control-label col-md-4 ">Mobile No <span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_mobile_no" placeholder="Mobile No. "
-                                   style="margin-bottom: 10px" type="text" required/>
+                                   style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
                     <div id="p_alt_tel" class="form-group required">
-                        <label for="p_alt_tel" class="control-label col-md-4  requiredField"> Residence Telephone
+                        <label for="p_alt_tel" class="control-label col-md-4 "> Residence Telephone
                             No.(with STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_alttel"
-                                   placeholder="Phone No." style="margin-bottom: 10px" type="text" required/>
+                                   placeholder="Phone No." style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
